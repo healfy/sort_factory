@@ -3,6 +3,7 @@ from .base import BaseSort, DEFAULT, BaseSortFactory
 
 
 class SelectSort(BaseSort):
+    name = 'select'
 
     def sort(self, array: typing.List) -> typing.List:
         for i in range(len(array) - 1):

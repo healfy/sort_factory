@@ -3,6 +3,7 @@ from .base import BaseSort, BaseSortFactory, DEFAULT
 
 
 class InsertSort(BaseSort):
+    name = 'insert'
 
     def sort(self, array: typing.List) -> typing.List:
         for i in range(1, len(array)):

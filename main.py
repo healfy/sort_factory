@@ -31,3 +31,4 @@ if __name__ == '__main__':
         file.write(json.dumps(result))
 
     print(f'Sorting is finished. Pls open {args.f2} and check result')
+    print(f'Result is {result}')

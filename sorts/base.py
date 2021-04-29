@@ -6,6 +6,7 @@ DEFAULT = 'default'
 
 
 class BaseSort(abc.ABC):
+    name: str
 
     @abc.abstractmethod
     def sort(self, array: List) -> List:

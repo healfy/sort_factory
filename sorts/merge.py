@@ -4,6 +4,7 @@ from .base import BaseSort, DEFAULT, BaseSortFactory
 
 
 class MergeSort(BaseSort):
+    name = 'merge'
 
     def sort(self, array: typing.List) -> typing.List:
         return self.merge_sort(array)
